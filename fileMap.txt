@@ -1,0 +1,135 @@
+plumbing-website/                 # Root directory of the project
+│
+├── app/                          # Contains the pages and route-specific logic
+│   ├── about-us/                 
+│   │   └── page.tsx              # About Us page; provides details about the company
+│   ├── blog/                     
+│   │   ├── [slug]/              
+│   │   │   └── page.tsx          # Dynamic blog post page, rendered based on the URL slug
+│   │   ├── category/
+│   │   │   └── [category]/
+│   │   │       └── page.tsx      # Category-specific blog listing page
+│   │   └── page.tsx              # Main Blog page; lists all blog posts
+│   ├── contact/
+│   │   └── page.tsx              # Contact page with a contact form or contact info
+│   ├── faq/
+│   │   └── page.tsx              # Frequently Asked Questions page
+│   ├── gallery/
+│   │   └── page.tsx              # Gallery page displaying images
+│   ├── guides/
+│   │   └── page.tsx              # Guides page listing informational guides
+│   ├── privacy-policy/
+│   │   └── page.tsx              # Privacy policy page for legal compliance
+│   ├── services/                 # Contains individual service pages
+│   │   ├── bathroom-remodeling/
+│   │   │   └── page.tsx          # Bathroom remodeling services page
+│   │   ├── commercial-plumbing/
+│   │   │   └── page.tsx          # Commercial plumbing services page
+│   │   ├── drain-and-sewer/
+│   │   │   └── page.tsx          # Drain and sewer services page
+│   │   ├── emergency-plumbing/
+│   │   │   └── page.tsx          # Emergency plumbing services page
+│   │   ├── gas-plumbing/
+│   │   │   └── page.tsx          # Gas plumbing services page
+│   │   ├── outdoor-plumbing/
+│   │   │   └── page.tsx          # Outdoor plumbing services page
+│   │   ├── pipework-services/
+│   │   │   └── page.tsx          # Pipework services page
+│   │   ├── residential-plumbing/
+│   │   │   └── page.tsx          # Residential plumbing services page
+│   │   ├── specialty-plumbing/
+│   │   │   └── page.tsx          # Specialty plumbing services page
+│   │   ├── water-heater-services/
+│   │   │   └── page.tsx          # Water heater services page
+│   │   └── water-treatment-services/
+│   │       └── page.tsx          # Water treatment services page
+│   ├── globals.css               # Global CSS styles
+│   ├── layout.tsx                # Global layout component applied to all pages
+│   ├── page.tsx                  # Main landing page or homepage
+│   ├── robots.ts                 # Generates a robots.txt file for SEO
+│   └── sitemap.ts                # Generates a sitemap.xml for SEO
+│
+├── components/                   # Reusable UI and functional components
+│   ├── blog/                     # Blog-specific components
+│   │   ├── BlogContent.tsx       # Renders blog post content
+│   │   ├── BlogList.tsx          # Displays a list of blog posts
+│   │   ├── BlogSidebar.tsx       # Sidebar for blog categories or tags
+│   │   ├── RelatedPosts.tsx      # Displays related blog posts
+│   │   └── ShareButtons.tsx      # Social media sharing buttons
+│   ├── guides/                   # Guide-specific components
+│   │   ├── GuideContent.tsx      # Displays the content of guides
+│   │   ├── GuideList.tsx         # Lists guides
+│   │   └── GuideSidebar.tsx      # Sidebar for guides
+│   ├── ui/                       # Generic, reusable UI components
+│   │   ├── button.tsx            # Button component
+│   │   ├── card.tsx              # Card component
+│   │   ├── dialog.tsx            # Dialog or modal component
+│   │   ├── input.tsx             # Input field component
+│   │   └── ...                   # Other UI components
+│   ├── ContactForm.tsx           # Contact form component
+│   ├── CostCalculator.tsx        # Interactive cost estimation calculator
+│   ├── DrainInspectionViewer.tsx # Viewer for drain inspection results
+│   ├── EmergencyBanner.tsx       # Prominent banner for emergency services
+│   ├── EnhancedFAQ.tsx           # Enhanced FAQ component with interactive elements
+│   ├── Gallery.tsx               # Component for displaying image galleries
+│   ├── GasServiceChecklist.tsx   # Checklist component for gas services
+│   ├── GoogleMap.tsx             # Google Map integration component
+│   ├── header.tsx                # Header component with navigation
+│   ├── footer.tsx                # Footer component
+│   ├── PageLayout.tsx            # Generic layout wrapper for pages
+│   ├── ReadingProgress.tsx       # Reading progress indicator for articles
+│   ├── Reviews.tsx               # Customer reviews component
+│   ├── SEOHead.tsx               # Component for adding SEO meta tags
+│   ├── SEOTags.tsx               # Configurable SEO tags component
+│   ├── ScrollToTop.tsx           # Scroll-to-top button component
+│   ├── ServiceAreaMap.tsx        # Map highlighting service areas
+│   ├── ServiceBreadcrumbs.tsx    # Breadcrumb navigation for service pages
+│   ├── ServiceCard.tsx           # Individual service card component
+│   ├── ServiceCards.tsx          # Grid of service cards
+│   ├── ServiceFAQ.tsx            # FAQ component specific to services
+│   ├── ServiceHero.tsx           # Hero section for service pages
+│   ├── ServiceMetaTags.tsx       # SEO meta tags specific to service pages
+│   ├── ServicePageLayout.tsx     # Layout for individual service pages
+│   ├── ServiceProcess.tsx        # Step-by-step process display for services
+│   ├── ServiceRequestWizard.tsx  # Interactive service request wizard
+│   ├── ServiceSchema.tsx         # JSON-LD schema markup for services
+│   ├── SmartDevicesList.tsx      # Component for listing smart plumbing devices
+│   ├── TableOfContents.tsx       # Table of contents for long pages
+│   ├── Testimonials.tsx          # Customer testimonials component
+│   ├── WaterHeaterComparison.tsx # Comparison table for water heater options
+│   ├── WaterQualityChart.tsx     # Chart displaying water quality metrics
+│   └── WaterTestingParameters.tsx # Parameters for water testing results
+│
+├── hooks/                        # Custom React hooks
+│   └── use-scroll.ts             # Hook for handling scroll-related behavior
+│
+├── lib/                          # Library code and utilities
+│   ├── blog-data.ts              # Blog-related data fetching
+│   ├── blog-types.ts             # Type definitions for blog data
+│   ├── blog-utils.ts             # Utility functions for blog features
+│   ├── constants.ts              # Constants used across the project
+│   ├── fonts.ts                  # Font configuration
+│   └── utils.ts                  # General utility functions
+│
+├── types/                        # TypeScript type definitions
+│   ├── blog.d.ts                 # Blog-specific type definitions
+│   ├── guide.d.ts                # Guide-specific type definitions
+│   └── service.d.ts              # Service-specific type definitions
+│
+├── public/                       # Public assets
+│   ├── images/                   # Images used in the site
+│   │   ├── blog/                 # Blog-specific images
+│   │   ├── services/             # Service-specific images
+│   │   └── team/                 # Team member photos
+│   └── fonts/                    # Font files
+│
+├── .eslintrc.json                # ESLint configuration
+├── .gitignore                    # Specifies files and directories to ignore in Git
+├── components.json               # Component registry (if used)
+├── middleware.ts                 # Custom Next.js middleware
+├── next-env.d.ts                 # Next.js environment types
+├── next.config.js                # Next.js configuration file
+├── package.json                  # Project dependencies and scripts
+├── postcss.config.js             # PostCSS configuration
+├── tailwind.config.ts            # Tailwind CSS configuration
+└── tsconfig.json                 # TypeScript configuration
