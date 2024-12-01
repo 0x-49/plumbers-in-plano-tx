@@ -1,4 +1,4 @@
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Gallery } from "@/components/Gallery";
 
 export default function GalleryPage() {

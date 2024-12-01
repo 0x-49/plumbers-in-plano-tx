@@ -6,7 +6,7 @@ import {
   Droplet, 
   Flame, 
   ShowerHead,
-  PipeOff,
+  Pipette,
   Waves,
   Sprout,
   Lightbulb
@@ -46,7 +46,7 @@ const services = [
   {
     title: "Drain & Sewer",
     description: "Professional drain and sewer solutions",
-    icon: <PipeOff className="w-full h-full" />,
+    icon: <Pipette className="w-full h-full" />,
     href: "/services/drain-and-sewer"
   },
   {

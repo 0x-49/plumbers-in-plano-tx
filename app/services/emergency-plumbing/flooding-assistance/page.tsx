@@ -1,15 +1,15 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
   Droplets,
   Clock,
   ShieldCheck,
-  PumpIcon,
+  Gavel,
   CheckCircle,
-  WaterOff
+  Droplet
 } from "lucide-react";
 
 const features = [
@@ -19,12 +19,12 @@ const features = [
     description: "Immediate response to flooding emergencies"
   },
   {
-    icon: <PumpIcon className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Gavel className="w-8 h-8 text-[#0caadc]" />,
     title: "Water Extraction",
     description: "Professional-grade water removal equipment"
   },
   {
-    icon: <WaterOff className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Droplet className="w-8 h-8 text-[#0caadc]" />,
     title: "Flood Prevention",
     description: "Solutions to prevent future flooding"
   },

@@ -1,11 +1,11 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
   ShowerHead,
-  Tool,
+  Hammer,
   Ruler,
   Shield,
   CheckCircle
@@ -18,7 +18,7 @@ const features = [
     description: "Professional installation of all shower and tub types"
   },
   {
-    icon: <Tool className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Hammer className="w-8 h-8 text-[#0caadc]" />,
     title: "Quality Materials",
     description: "Premium fixtures and installation components"
   },

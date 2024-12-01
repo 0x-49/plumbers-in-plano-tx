@@ -1,12 +1,12 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
-  PipeOff,
+  Pipette,
   Building2,
-  Tool,
+  Hammer,
   ClipboardCheck,
   CheckCircle
 } from "lucide-react";
@@ -18,12 +18,12 @@ const features = [
     description: "Specialized in large-scale commercial installations"
   },
   {
-    icon: <Tool className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Hammer className="w-8 h-8 text-[#0caadc]" />,
     title: "Professional Installation",
     description: "Expert installation by certified technicians"
   },
   {
-    icon: <PipeOff className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Pipette className="w-8 h-8 text-[#0caadc]" />,
     title: "System Design",
     description: "Custom pipework solutions for your business"
   },

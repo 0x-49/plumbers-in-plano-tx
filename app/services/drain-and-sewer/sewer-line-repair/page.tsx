@@ -1,12 +1,12 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
-  PipeOff,
+  Pipette,
   Search,
-  Tool,
+  Hammer,
   Shield,
   CheckCircle
 } from "lucide-react";
@@ -18,12 +18,12 @@ const features = [
     description: "Camera inspection to pinpoint damage location"
   },
   {
-    icon: <Tool className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Hammer className="w-8 h-8 text-[#0caadc]" />,
     title: "Expert Repairs",
     description: "Professional repair of all types of sewer line damage"
   },
   {
-    icon: <PipeOff className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Pipette className="w-8 h-8 text-[#0caadc]" />,
     title: "Line Replacement",
     description: "Complete sewer line replacement when needed"
   },

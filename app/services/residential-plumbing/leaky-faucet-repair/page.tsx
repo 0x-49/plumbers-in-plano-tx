@@ -1,11 +1,11 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
   Droplets,
-  Tool,
+  Hammer,
   Clock,
   Shield,
   CheckCircle
@@ -18,7 +18,7 @@ const features = [
     description: "Quick service to stop water waste"
   },
   {
-    icon: <Tool className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Hammer className="w-8 h-8 text-[#0caadc]" />,
     title: "Expert Repair",
     description: "Professional repair of all faucet types"
   },

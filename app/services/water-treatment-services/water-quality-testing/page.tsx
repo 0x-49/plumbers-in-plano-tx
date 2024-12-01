@@ -1,13 +1,13 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { ServiceProcess } from "@/components/ServiceProcess";
 import { ServiceFAQ } from "@/components/ServiceFAQ";
 import { WaterTestingParameters } from "@/components/WaterTestingParameters";
 import { 
-  Flask,
+  FlaskConical,
   Beaker,
   ClipboardCheck,
   FileText,
@@ -16,7 +16,7 @@ import {
 
 const features = [
   {
-    icon: <Flask className="w-8 h-8 text-[#0caadc]" />,
+    icon: <FlaskConical className="w-8 h-8 text-[#0caadc]" />,
     title: "Comprehensive Testing",
     description: "Analysis of all key water quality parameters"
   },

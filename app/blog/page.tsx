@@ -4,7 +4,7 @@
 import { BlogGrid } from "@/components/blog/BlogGrid";
 import { BlogSidebar } from "@/components/blog/BlogSidebar";
 import { PageLayout } from "@/components/PageLayout";
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { useState } from "react";
 import type { BlogPost, BlogCategory, BlogTag } from "@/lib/blog-types";
 

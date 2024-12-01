@@ -1,13 +1,13 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { ServiceProcess } from "@/components/ServiceProcess";
 import { ServiceFAQ } from "@/components/ServiceFAQ";
 import { DrainInspectionViewer } from "@/components/DrainInspectionViewer";
-import { PageLayout } from "@/components/PageLayout";
-import { SEOHead } from "@/components/SEOHead";
+import PageLayout from "@/components/PageLayout";
+import SEOHead from "@/components/SEOHead";
 import { generateLocalBusinessSchema } from "@/lib/seo-utils";
 import { 
   Camera,

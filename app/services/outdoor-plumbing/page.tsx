@@ -1,13 +1,13 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
   Sprout,
   Droplets,
-  Pool,
-  WaterOff,
+  Waves,
+  Droplet,
   CheckCircle
 } from "lucide-react";
 
@@ -23,12 +23,12 @@ const services = [
     description: "Installation and repair of outdoor water fixtures"
   },
   {
-    icon: <Pool className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Waves className="w-8 h-8 text-[#0caadc]" />,
     title: "Pool Plumbing",
     description: "Complete pool plumbing services and maintenance"
   },
   {
-    icon: <WaterOff className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Droplet className="w-8 h-8 text-[#0caadc]" />,
     title: "Drainage Solutions",
     description: "Yard drainage and water management systems"
   }

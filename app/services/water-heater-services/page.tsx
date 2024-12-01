@@ -11,7 +11,7 @@ import {
   Gauge,
   Settings,
   CheckCircle,
-  ThermometerHot
+  ThermometerSun
 } from "lucide-react";
 
 const features = [
@@ -31,7 +31,7 @@ const features = [
     description: "Regular maintenance to extend your water heater's lifespan"
   },
   {
-    icon: <ThermometerHot className="w-8 h-8 text-[#0caadc]" />,
+    icon: <ThermometerSun className="w-8 h-8 text-[#0caadc]" />,
     title: "Energy Efficiency",
     description: "Energy-efficient solutions to reduce utility costs"
   }

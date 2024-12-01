@@ -12,7 +12,7 @@ import { generateLocalBusinessSchema } from "@/lib/seo-utils";
 import { 
   Droplets,
   Filter,
-  Flask,
+  FlaskConical,
   Gauge,
   CheckCircle,
   ShieldCheck
@@ -22,7 +22,7 @@ const features = [
   {
     title: "Water Quality Testing",
     description: "Comprehensive analysis of your water quality to identify contaminants and treatment needs",
-    icon: Flask
+    icon: FlaskConical
   },
   {
     title: "Water Filtration",

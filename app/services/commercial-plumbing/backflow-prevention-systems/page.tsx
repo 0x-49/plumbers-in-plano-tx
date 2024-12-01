@@ -1,13 +1,13 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
   ShieldCheck,
   Settings,
   ClipboardCheck,
-  Tool,
+  Hammer,
   CheckCircle
 } from "lucide-react";
 
@@ -23,7 +23,7 @@ const features = [
     description: "Professional installation of backflow devices"
   },
   {
-    icon: <Tool className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Hammer className="w-8 h-8 text-[#0caadc]" />,
     title: "Repairs",
     description: "Expert repair of existing systems"
   },

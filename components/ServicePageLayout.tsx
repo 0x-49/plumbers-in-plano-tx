@@ -1,7 +1,7 @@
 "use client";
 
 import PageLayout from "@/components/PageLayout";
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { ServiceBreadcrumbs } from "@/components/ServiceBreadcrumbs";
 import { ServiceSchema } from "@/components/ServiceSchema";
 import { ServiceMetaTags } from "@/components/ServiceMetaTags";
