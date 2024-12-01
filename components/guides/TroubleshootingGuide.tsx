@@ -1,4 +1,3 @@
-```typescript
 "use client";
 
 import { Card } from "@/components/ui/card";
@@ -11,7 +10,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { 
   AlertTriangle,
-  Tool,
+  Hammer,
   HelpCircle,
   CheckCircle2,
   PhoneCall
@@ -114,7 +113,7 @@ export function TroubleshootingGuide({
 
                         {solution.tools && (
                           <div className="flex items-center gap-2 text-sm text-muted-foreground mt-2">
-                            <Tool className="w-4 h-4" />
+                            <Hammer className="w-4 h-4" />
                             <span>Tools needed: {solution.tools.join(", ")}</span>
                           </div>
                         )}
@@ -141,4 +140,3 @@ export function TroubleshootingGuide({
     </Card>
   );
 }
-```

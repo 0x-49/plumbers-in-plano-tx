@@ -1,4 +1,3 @@
-```typescript
 "use client";
 
 import { Card } from "@/components/ui/card";
@@ -9,7 +8,7 @@ import {
   Clock, 
   CheckCircle,
   AlertTriangle,
-  Tool,
+  Hammer,
   Download
 } from "lucide-react";
 
@@ -89,7 +88,7 @@ export function ServiceGuide({
             {step.tools && step.tools.length > 0 && (
               <div className="mb-4">
                 <h4 className="font-medium mb-2 flex items-center gap-2">
-                  <Tool className="w-4 h-4" />
+                  <Hammer className="w-4 h-4" />
                   Tools Needed:
                 </h4>
                 <ul className="list-disc list-inside text-sm text-muted-foreground">
@@ -140,4 +139,3 @@ export function ServiceGuide({
     </Card>
   );
 }
-```

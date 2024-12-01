@@ -1,11 +1,10 @@
-```typescript
 "use client";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { SeasonalTips } from "./SeasonalTips";
+import SeasonalTips, { SeasonalTip } from "./SeasonalTips";
 import { EmergencyPreparedness } from "./EmergencyPreparedness";
 
-const springTips = [
+const springTips: SeasonalTip[] = [
   {
     title: "Outdoor Faucet Inspection",
     description: "Check outdoor faucets and hose bibs for winter damage",
@@ -24,7 +23,7 @@ const springTips = [
   // Add more spring tips...
 ];
 
-const summerTips = [
+const summerTips: SeasonalTip[] = [
   {
     title: "Sprinkler System Maintenance",
     description: "Ensure efficient operation of irrigation systems",
@@ -39,7 +38,7 @@ const summerTips = [
   // Add more summer tips...
 ];
 
-const fallTips = [
+const fallTips: SeasonalTip[] = [
   {
     title: "Winter Preparation",
     description: "Prepare your plumbing system for cold weather",
@@ -58,7 +57,7 @@ const fallTips = [
   // Add more fall tips...
 ];
 
-const winterTips = [
+const winterTips: SeasonalTip[] = [
   {
     title: "Freeze Prevention",
     description: "Protect your plumbing during freezing temperatures",
@@ -154,4 +153,3 @@ export function SeasonalGuideWrapper() {
     </Tabs>
   );
 }
-```
