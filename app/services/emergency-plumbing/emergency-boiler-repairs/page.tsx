@@ -1,6 +1,6 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
@@ -9,7 +9,7 @@ import {
   ShieldCheck,
   Wrench,
   CheckCircle,
-  ThermometerHot
+  ThermometerSun
 } from "lucide-react";
 
 const features = [
@@ -19,7 +19,7 @@ const features = [
     description: "Round-the-clock emergency boiler repair"
   },
   {
-    icon: <ThermometerHot className="w-8 h-8 text-[#0caadc]" />,
+    icon: <ThermometerSun className="w-8 h-8 text-[#0caadc]" />,
     title: "Expert Diagnosis",
     description: "Advanced diagnostic equipment for accurate repairs"
   },

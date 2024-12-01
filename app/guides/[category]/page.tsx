@@ -1,7 +1,7 @@
 ```typescript
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { PageLayout } from "@/components/PageLayout";
 import { ServiceGuide } from "@/components/guides/ServiceGuide";
 import { useParams } from "next/navigation";

@@ -1,13 +1,13 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
   ShowerHead,
   Droplets,
   Settings,
-  Tool,
+  Hammer,
   CheckCircle
 } from "lucide-react";
 
@@ -28,7 +28,7 @@ const features = [
     description: "Replacement of handles, knobs, and other hardware"
   },
   {
-    icon: <Tool className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Hammer className="w-8 h-8 text-[#0caadc]" />,
     title: "Expert Installation",
     description: "Professional installation by certified plumbers"
   }

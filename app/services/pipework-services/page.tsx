@@ -1,10 +1,10 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
-  Tool,
+  Hammer,
   Search,
   Wrench,
   Shield,
@@ -18,7 +18,7 @@ const services = [
     description: "Advanced technology for accurate leak detection"
   },
   {
-    icon: <Tool className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Hammer className="w-8 h-8 text-[#0caadc]" />,
     title: "Pipe Repair",
     description: "Expert repair of damaged pipes"
   },

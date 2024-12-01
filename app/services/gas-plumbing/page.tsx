@@ -8,7 +8,7 @@ import { GasServiceChecklist } from "@/components/GasServiceChecklist";
 import { 
   Flame,
   Search,
-  Tool,
+  Hammer,
   AlertTriangle,
   CheckCircle,
   ShieldCheck,
@@ -23,7 +23,7 @@ const features = [
     description: "Advanced detection technology for safe and accurate results"
   },
   {
-    icon: <Tool className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Hammer className="w-8 h-8 text-[#0caadc]" />,
     title: "Gas Line Installation",
     description: "Professional installation of new gas lines"
   },

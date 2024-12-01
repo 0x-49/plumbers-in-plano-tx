@@ -1,6 +1,6 @@
 "use client";
 
-import { ServicePageLayout } from "@/components/ServicePageLayout";
+import ServicePageLayout from "@/components/ServicePageLayout";
 import { Card } from "@/components/ui/card";
 import { ServiceProcess } from "@/components/ServiceProcess";
 import { EnhancedFAQ } from "@/components/EnhancedFAQ";

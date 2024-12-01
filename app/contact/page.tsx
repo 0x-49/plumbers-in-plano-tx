@@ -1,4 +1,4 @@
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { PhoneCall, Mail, MapPin, Clock } from "lucide-react";

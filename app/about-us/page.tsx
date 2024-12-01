@@ -1,4 +1,4 @@
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { Reviews } from "@/components/Reviews";
 import { WrenchIcon, ShieldCheckIcon, AwardIcon, UsersIcon } from "lucide-react";

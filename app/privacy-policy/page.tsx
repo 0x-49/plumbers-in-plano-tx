@@ -1,4 +1,4 @@
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 
 export default function PrivacyPolicyPage() {

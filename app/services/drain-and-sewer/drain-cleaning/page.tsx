@@ -1,10 +1,10 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
-  PipeOff,
+  Pipette,
   Droplets,
   Search,
   Shield,
@@ -18,7 +18,7 @@ const features = [
     description: "Advanced camera inspection to locate blockages"
   },
   {
-    icon: <PipeOff className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Pipette className="w-8 h-8 text-[#0caadc]" />,
     title: "Clog Removal",
     description: "Professional removal of all types of blockages"
   },

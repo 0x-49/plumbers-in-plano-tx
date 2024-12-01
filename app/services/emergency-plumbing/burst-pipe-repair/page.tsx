@@ -1,10 +1,10 @@
 "use client";
 
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
-  PipeOff,
+  Pipette,
   Clock,
   ShieldCheck,
   Wrench,
@@ -23,7 +23,7 @@ const features = [
     description: "Fully licensed and insured technicians"
   },
   {
-    icon: <PipeOff className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Pipette className="w-8 h-8 text-[#0caadc]" />,
     title: "Advanced Detection",
     description: "Latest technology for precise leak location"
   },

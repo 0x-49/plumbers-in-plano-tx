@@ -1,10 +1,10 @@
-import { ServiceHero } from "@/components/ServiceHero";
+import ServiceHero from "@/components/ServiceHero";
 import { Card } from "@/components/ui/card";
 import { ContactForm } from "@/components/ContactForm";
 import { 
   ShowerHead, 
   Droplets, 
-  PipeOff,
+  Pipette,
   Wrench 
 } from "lucide-react";
 
@@ -20,7 +20,7 @@ const services = [
     description: "Faucet repairs, garbage disposal installation, and sink services"
   },
   {
-    icon: <PipeOff className="w-8 h-8 text-[#0caadc]" />,
+    icon: <Pipette className="w-8 h-8 text-[#0caadc]" />,
     title: "Drain Services",
     description: "Drain cleaning, unclogging, and maintenance"
   },
