@@ -1,4 +1,3 @@
-```typescript
 "use client";
 
 import { Card } from "@/components/ui/card";
@@ -13,7 +12,7 @@ import {
   AlertTriangle 
 } from "lucide-react";
 
-interface SeasonalTip {
+export interface SeasonalTip {
   title: string;
   description: string;
   priority: "High" | "Medium" | "Low";
@@ -46,7 +45,7 @@ const priorityColors = {
   Low: "bg-green-100 text-green-800"
 };
 
-export function SeasonalTips({ season, tips }: SeasonalTipsProps) {
+export default function SeasonalTips({ season, tips }: SeasonalTipsProps) {
   return (
     <Card className="p-6">
       <div className={`flex items-center gap-2 mb-6 ${seasonColors[season]}`}>
@@ -105,4 +104,3 @@ export function SeasonalTips({ season, tips }: SeasonalTipsProps) {
     </Card>
   );
 }
-```

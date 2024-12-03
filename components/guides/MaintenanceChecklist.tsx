@@ -1,4 +1,3 @@
-```typescript
 "use client";
 
 import { Card } from "@/components/ui/card";
@@ -8,7 +7,7 @@ import {
   ClipboardList,
   Calendar,
   AlertTriangle,
-  Tool
+  Hammer
 } from "lucide-react";
 import { useState } from "react";
 
@@ -94,7 +93,7 @@ export function MaintenanceChecklist({
 
                 {item.tools && (
                   <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
-                    <Tool className="w-4 h-4" />
+                    <Hammer className="w-4 h-4" />
                     <span>Tools needed: {item.tools.join(", ")}</span>
                   </div>
                 )}
@@ -127,4 +126,3 @@ export function MaintenanceChecklist({
     </Card>
   );
 }
-```

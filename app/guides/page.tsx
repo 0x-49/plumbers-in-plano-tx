@@ -1,6 +1,5 @@
-```typescript
 import ServiceHero from "@/components/ServiceHero";
-import { PageLayout } from "@/components/PageLayout";
+import  PageLayout  from "@/components/PageLayout";
 import { ServiceGuide } from "@/components/guides/ServiceGuide";
 import { MaintenanceChecklist } from "@/components/guides/MaintenanceChecklist";
 import { TroubleshootingGuide } from "@/components/guides/TroubleshootingGuide";
@@ -77,11 +76,11 @@ export default function GuidesPage() {
             </TabsList>
 
             <TabsContent value="maintenance">
-              <MaintenanceChecklist {...maintenanceChecklist} />
+              {/* <MaintenanceChecklist {...maintenanceChecklist} /> */}
             </TabsContent>
 
             <TabsContent value="troubleshooting">
-              <TroubleshootingGuide {...troubleshootingGuide} />
+              {/* <TroubleshootingGuide {...troubleshootingGuide} /> */}
             </TabsContent>
 
             <TabsContent value="seasonal">
@@ -93,4 +92,3 @@ export default function GuidesPage() {
     </PageLayout>
   );
 }
-```

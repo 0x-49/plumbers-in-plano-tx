@@ -1,4 +1,3 @@
-```typescript
 "use client";
 
 import { Card } from "@/components/ui/card";
@@ -8,7 +7,7 @@ import {
   AlertTriangle,
   ShieldAlert,
   Phone,
-  Tool,
+  Hammer,
   FileDown,
   CheckCircle2
 } from "lucide-react";
@@ -80,7 +79,7 @@ export function EmergencyPreparedness({
           {/* Emergency Supplies */}
           <div>
             <h3 className="font-semibold mb-4 flex items-center gap-2">
-              <Tool className="w-4 h-4" />
+              <Hammer className="w-4 h-4" />
               Emergency Supply Checklist
             </h3>
             <div className="grid gap-4">
@@ -126,7 +125,7 @@ export function EmergencyPreparedness({
                     {step.tools && (
                       <div>
                         <h5 className="text-sm font-medium mb-2 flex items-center gap-2">
-                          <Tool className="w-4 h-4" />
+                          <Hammer className="w-4 h-4" />
                           Tools Needed:
                         </h5>
                         <p className="text-sm text-muted-foreground">
@@ -166,4 +165,3 @@ export function EmergencyPreparedness({
     </div>
   );
 }
-```

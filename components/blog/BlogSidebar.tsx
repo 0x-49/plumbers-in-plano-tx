@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Search } from "lucide-react";
 import Link from "next/link";
 import type { BlogCategory, BlogTag } from "@/lib/blog-types";
+import { Dispatch, SetStateAction } from "react";
 
 interface BlogSidebarProps {
   categories: BlogCategory[];
@@ -13,9 +14,10 @@ interface BlogSidebarProps {
   searchQuery?: string;
   onSearchChange?: (query: string) => void;
   showSearch?: boolean;
+  onSearch?: Dispatch<SetStateAction<string>>; 
 }
 
-export default function BlogSidebar({ categories, tags, onSearchChange, showSearch = true, searchQuery }: BlogSidebarProps) {
+export default function BlogSidebar({ categories, tags, onSearchChange, showSearch = true, searchQuery, onSearch }: BlogSidebarProps) {
   return (
     <div className="space-y-6">
       {showSearch && (
